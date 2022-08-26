@@ -1,0 +1,102 @@
+body{
+    background-color:rgb(0, 0, 0);
+    color:rgb(255, 255, 255);
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:16px;
+    line-height: 1.6em;
+
+}
+
+.container{
+    width:80%;
+    margin:auto;
+    overflow:hidden;
+
+}
+#main-header{
+    background-color: rgb(0, 0, 0);
+    color:rgb(255, 255, 255);
+
+}
+
+#navbar{
+    background-color: rgb(0, 0, 0);
+    color:rgb(0, 0, 0);
+
+}
+
+#navbar ul{
+    padding:0;
+    list-style:none;
+    
+}
+
+#navbar li{
+    display:inline;
+
+}
+
+#navbar a{
+    color:rgb(255, 255, 255);
+    text-decoration: none;
+    font-size:18px;
+    padding-right:15px;
+
+}
+
+#showcase{
+    background-image:url('../images/olol.jpg');
+    background-position:center right;
+    height:300px;
+    margin-bottom:30px;
+    text-align:center;
+
+    
+
+}
+
+#showcase h1{
+    color:rgb(10, 112, 1);
+    font-size:50px;
+    line-height: 1.6em;
+    padding-top:30px;
+
+}
+
+#main{
+    float:left;
+    width:70%;
+    padding:0 30px;
+    box-sizing:border-box;
+
+}
+
+#sidebar{
+    float:right;
+    width:30%;
+    background:rgb(0, 0, 0);
+    color:rgb(255, 255, 255);
+    padding:10px;
+    box-sizing: border-box;
+
+}
+
+#main-footer{
+    background:rgb(0, 0, 0);
+    color:rgb(255, 255, 255);
+    text-align: center;
+    padding:20px;
+    margin-top:40px;
+
+}
+
+@media(max-width:600px){
+    #main{
+        width:100%;
+        float:none;
+    }
+    #sidebar{
+        width:100%;
+        float:none;
+    }
+}
